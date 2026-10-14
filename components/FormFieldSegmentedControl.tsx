@@ -2,10 +2,7 @@ import type { FieldValues, FieldPath } from "react-hook-form";
 
 import type { FormFieldWrapperProps } from "./FormFieldWrapper";
 import { FormFieldWrapper } from "./FormFieldWrapper";
-import type {
-  SegmentedControlOption,
-  SegmentedControlProps,
-} from "./SegmentedControl";
+import type { SegmentedControlOption, SegmentedControlProps } from "./SegmentedControl";
 import { SegmentedControl } from "./SegmentedControl";
 
 export interface FormFieldSegmentedControlProps<

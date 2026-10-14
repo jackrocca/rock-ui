@@ -6,14 +6,8 @@ import * as React from "react";
 
 import { Badge } from "../primitives/badge";
 import { cn } from "../lib/utils";
-import type {
-  AdvancedSelectOption,
-  AdvancedSelectVariant,
-} from "./AdvancedSelectTypes";
-import {
-  advancedSelectVariants,
-  badgeAnimationVariants,
-} from "./AdvancedSelectVariants";
+import type { AdvancedSelectOption, AdvancedSelectVariant } from "./AdvancedSelectTypes";
+import { advancedSelectVariants, badgeAnimationVariants } from "./AdvancedSelectVariants";
 
 const AdvancedSelectBadgeItem = ({
   onMiddleClick,

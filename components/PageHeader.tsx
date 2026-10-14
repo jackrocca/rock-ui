@@ -12,10 +12,7 @@ import { PageHeaderMenu } from "./PageHeaderMenu";
 import { PageHeaderMenuIcon } from "./PageHeaderParts";
 import { useKitzeUI } from "./KitzeUIContext";
 import { useControlledOpen } from "../hooks/useControlledOpen";
-import type {
-  PageHeaderNavigationContent,
-  PageHeaderProps,
-} from "./PageHeaderTypes";
+import type { PageHeaderNavigationContent, PageHeaderProps } from "./PageHeaderTypes";
 
 export type {
   PageHeaderClassNames,

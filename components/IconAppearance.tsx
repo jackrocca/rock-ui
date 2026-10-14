@@ -4,12 +4,7 @@ import { useState } from "react";
 
 import { cn } from "../lib/utils";
 import { IconColorFields } from "./IconColorFields";
-import type {
-  IconColorMode,
-  IconColorPreset,
-  IconFrame,
-  IconValue,
-} from "./icon-types";
+import type { IconColorMode, IconColorPreset, IconFrame, IconValue } from "./icon-types";
 import { iconColorPresets } from "./icon-types";
 
 export interface IconAppearanceProps {

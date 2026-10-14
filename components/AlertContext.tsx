@@ -2,11 +2,7 @@
 
 import React, { useCallback, useContext, useMemo, useReducer } from "react";
 
-import {
-  alertReducer,
-  generateId,
-  initialState,
-} from "./AlertContextState";
+import { alertReducer, generateId, initialState } from "./AlertContextState";
 import { AlertContext } from "./AlertContextStore";
 import type * as AlertContextTypesModule from "./AlertContextTypes";
 import * as AlertRendererModule from "./AlertRenderer";
